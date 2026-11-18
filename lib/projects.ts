@@ -10,7 +10,7 @@ export const projects = [
     techStack: ['NestJS', 'TypeScript', 'PostgreSQL', 'Prisma', 'IntouchPay', 'USSD', 'Africa\'s Talking', 'FCM'],
     image: '/ikimina.png',
     links: {
-      code: 'https://github.com/tresormu/ikimina_bn',
+      code: 'https://github.com/tresormu/ikimina_web',
       demo: 'https://ikimina-web.vercel.app/',
       report: undefined,
       leaderboard: undefined,
@@ -46,7 +46,7 @@ export const projects = [
     techStack: ['React', 'Node.js', 'RBAC', 'REST API'],
     image: '/Youthcontest.png',
     links: {
-      code: 'https://github.com/tresormu/youthcont_fn',
+      code: 'https://github.com/tresormu/youthcont_bn',
       demo: 'https://youthcont-fn.vercel.app/',
       report: undefined,
       leaderboard: undefined,
@@ -82,7 +82,7 @@ export const projects = [
     techStack: ['Node.js', 'Express', 'MongoDB', 'Axios', 'Zod'],
     image: '/BDifferent.png',
     links: {
-      code: 'https://github.com/tresormu',
+      code: 'https://github.com/tresormu/E-commerce-Api',
       demo: 'https://full-ecommerce-sigma.vercel.app/',
       report: undefined,
       leaderboard: undefined,

@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    serverMinification: false,
+  },
 }
 
 module.exports = nextConfig

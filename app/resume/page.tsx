@@ -4,23 +4,10 @@ import Footer from '@/components/Footer'
 
 const experience = [
   {
-    role: 'Backend Developer (Remote)',
-    company: 'Scrimba',
-    location: 'Norway (Remote)',
-    period: '2024 – 2025 (6 months)',
-    bullets: [
-      'Delivered production-grade REST APIs with JWT authentication, refresh token, and declarative route protection.',
-      'Engineered MongoDB schemas with indexing and constraints, eliminating orphaned records.',
-      'Built reusable middleware pipeline for logging, error normalization, and input sanitization across all endpoints.',
-      'Collaborated via GitHub PR workflows, delivering features on schedule with zero support tickets from frontend.',
-    ],
-    tech: ['Node.js', 'Express', 'TypeScript', 'MongoDB', 'REST APIs', 'Git'],
-  },
-  {
-    role: 'Full Stack Developer & Lead',
+    role: 'Full Stack Intern',
     company: 'KLab Organization',
-    location: 'Kigali, Rwanda',
-    period: 'Oct 2025 – Feb 2026',
+    location: 'Rwanda',
+    period: 'Feb 2025 – June 2026',
     bullets: [
       'Led backend development of ShieldKids (child safety app), owning architecture, sprint execution, and stakeholder demos.',
       'Implemented persistent WebSockets for real-time location tracking and geofence breach alerts.',
@@ -30,29 +17,31 @@ const experience = [
     tech: ['Kotlin', 'WebSockets', 'REST APIs', 'Git', 'GitHub', 'Trello'],
   },
   {
-    role: 'Backend Engineer (Remote)',
-    company: 'MP Circle Ltd',
-    location: 'South Africa (Remote)',
-    period: 'Mar 2026 – Apr 2026',
+    role: 'Backend Developer (Remote Training)',
+    company: 'KLab Organization',
+    location: 'Rwanda',
+    period: 'Oct 2025 – Jan 2026',
     bullets: [
-      'Architected NestJS backend services with REST contracts, typed responses, and unified error handling.',
-      'Produced enterprise grade Swagger/OpenAPI docs enabling self-service client integration.',
-      'Conducted end-to-end API testing using Postman tool.',
-      'Troubleshot Docker containerized environments to ensure builds in development stage.',
+      'Delivered production-grade REST APIs with JWT authentication, refresh token, and declarative route protection.',
+      'Engineered MongoDB schemas with indexing and constraints, eliminating orphaned records.',
+      'Built reusable middleware pipeline for logging, error normalization, and input sanitization across all endpoints.',
+      'Collaborated via GitHub PR workflows, delivering features on schedule with zero support tickets from frontend.',
     ],
-    tech: ['NestJS', 'TypeScript', 'Docker', 'Swagger', 'GitHub'],
+    tech: ['Node.js', 'Express', 'TypeScript', 'MongoDB', 'REST APIs', 'Git'],
   },
 ]
 
 const education = [
   {
-    degree: 'BSc Software Engineering',
-    institution: 'African Leadership University',
+    degree: 'BSc Business and IT',
+    institution: 'University of Kigali',
     location: 'Kigali, Rwanda',
     period: 'Expected Graduation: July 2028',
     details: [
-      'Focus areas: Software architecture, backend systems, database management, and engineering leadership.',
-      'Coursework: Database Systems, Data Structures & Algorithms, Software Engineering Principles.',
+      'Software architecture, backend systems, and engineering leadership.',
+      'Database Systems and Data Structures & Algorithms.',
+      'Business management.',
+      'Project management.',
     ],
   },
 ]
@@ -61,35 +50,48 @@ const projectsList = [
   {
     name: 'IkiminaPass',
     role: 'Backend & Project Lead',
-    description: 'ROSCA Platform for Rwanda – Digitised community savings groups (Ibimina). Built on NestJS, TypeScript, and PostgreSQL with Prisma ORM. Handles automated contribution tracking, USSD interface, and SMS/Push notifications.',
-  },
-  {
-    name: 'MamaCare',
-    role: 'Backend Developer & Project Lead',
-    description: 'Maternal Health Platform – Developed a maternal health tracking system with RESTful APIs, pregnancy milestone logs, and real-time appointment alerts via FCM push notifications.',
+    bullets: [
+      'Architected a full backend system in NestJS and PostgreSQL to digitise Rwanda\'s community savings groups (Ibimina).',
+      'Integrating with payment gateway via IntouchPay for automated payment processing and contribution tracking.',
+      'Built USSD interface for feature phone access, enabling group management without access to the app.',
+      'Integrated Africa\'s Talking SMS and FCM for dual-channel notifications and real-time alerts.',
+    ],
   },
   {
     name: 'TheYouthContest',
     role: 'Full-Stack Developer',
-    description: 'Debate Championship Platform – Created role-based tournament software managing bracket scheduling, speaker scoring, and online registration using Node.js and React.',
+    bullets: [
+      'Designed and built the full-stack infrastructure digitalizing debate championship processes.',
+      'Implemented robust Role-Based Access Control (RBAC) to ensure secure, role-specific data access.',
+      'Built and deployed a clean frontend, optimizing React hooks for efficient data fetching.',
+    ],
   },
   {
     name: 'Job Portal',
     role: 'Backend & Project Lead',
-    description: 'Recruitment Platform – Engineered backend user workflows separating employers and job seekers with MongoDB schema validation, role-based controls, and JWT routes.',
+    bullets: [
+      'Led full development lifecycle: architecture, task distribution, version control, testing, and deployment.',
+      'Designed MongoDB schemas and implemented backend APIs for job listings, applications, and user role management.',
+      'Built authentication and protected route systems with role-based access for employers and applicants.',
+    ],
   },
   {
     name: 'BDifferent',
-    role: 'Full-Stack Developer',
-    description: 'E-commerce platform – Built a full-stack store API utilizing Node.js/Express, MongoDB relationships, image upload, and Zod validator middleware.',
+    role: 'Full-Stack · Personal',
+    bullets: [
+      'Built backend CRUD APIs in Node.js and Express for product, user, and category management with image upload support.',
+      'Architected optimized MongoDB schemas, establishing efficient data relationships to optimize product queries.',
+      'Integrated frontend and backend services using Axios, ensuring a scalable and decoupled architecture.',
+      'Implemented schema validation middleware using Zod to ensure type-safe and secure API requests.',
+    ],
   },
 ]
 
 const skills = {
-  languages: ['TypeScript', 'JavaScript (ES6+)', 'SQL', 'HTML/CSS'],
-  backend: ['Node.js', 'NestJS', 'Express.js', 'REST API Design', 'WebSockets', 'JWT Authentication', 'Middleware'],
-  databases: ['PostgreSQL', 'Prisma ORM', 'MongoDB', 'MySQL', 'TypeORM', 'Schema Design', 'Query Optimisation'],
-  devOps: ['Docker', 'Git', 'GitHub', 'Postman', 'Swagger', 'FCM', 'Linux'],
+  languages: ['TypeScript', 'JavaScript (ES6+)'],
+  backend: ['Node.js', 'NestJS', 'Express.js', 'REST API Design', 'WebSockets', 'JWT Authentication'],
+  databases: ['PostgreSQL', 'MongoDB', 'MySQL', 'TypeORM', 'Schema Design', 'Query Optimisation'],
+  devOps: ['Docker', 'Git', 'GitHub', 'Postman', 'Swagger', 'FCM'],
   frontend: ['React', 'Next.js', 'Tailwind CSS'],
 }
 
@@ -97,21 +99,12 @@ const certifications = [
   'KLab Training Compilation Certificate',
 ]
 
-const awards = [
-  'KLab Hackathon Winner - MamaCare Project',
-]
-
-const extracurricular = [
-  'KLab Incubation Program - Full Stack Development',
-  'Open Source Contributions on GitHub',
-]
-
 const interests = [
   'Building real-time systems',
   'Contributing to open source',
   'Backend tooling automation',
   'Project Leading',
-  'DevOps & CI/CD Pipelines',
+  'DevOps',
 ]
 
 export default function ResumePage() {
@@ -221,7 +214,7 @@ export default function ResumePage() {
             <section className="mb-8" aria-label="Professional summary">
               <h2 className="text-xl font-semibold text-gray-900 mb-3">Summary</h2>
               <p className="text-gray-700 leading-relaxed text-sm">
-                Software Engineer specializing in backend development, with experience in building and deploying production-grade SaaS products. I focus on creating reliable systems, writing maintainable code, and being a diligent team member.
+                Backend engineer who delivers production-grade APIs and leads projects from architecture to deployment. Focused on reliability, team velocity, and building for African use cases.
               </p>
             </section>
 
@@ -276,7 +269,7 @@ export default function ResumePage() {
 
             {/* Relevant Projects */}
             <section className="mb-8">
-              <h2 className="text-xl font-semibold text-gray-900 mb-4">Relevant Projects</h2>
+              <h2 className="text-xl font-semibold text-gray-900 mb-4">Key Projects</h2>
               <div className="space-y-4">
                 {projectsList.map((project, idx) => (
                   <article key={idx} className="note-card p-4">
@@ -284,7 +277,11 @@ export default function ResumePage() {
                       <h3 className="font-semibold text-gray-900">{project.name}</h3>
                       <span className="text-xs text-accent font-medium">{project.role}</span>
                     </div>
-                    <p className="text-gray-600 text-sm leading-relaxed">{project.description}</p>
+                    <ul className="list-disc list-inside text-gray-600 text-sm mt-2 space-y-1 leading-relaxed">
+                      {project.bullets.map((b, bIdx) => (
+                        <li key={bIdx}>{b}</li>
+                      ))}
+                    </ul>
                   </article>
                 ))}
               </div>
@@ -320,22 +317,10 @@ export default function ResumePage() {
             {/* Certifications */}
             {certifications.length > 0 && (
               <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">Certifications</h2>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Achievements</h2>
                 <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
                   {certifications.map((cert, idx) => (
                     <li key={idx}>{cert}</li>
-                  ))}
-                </ul>
-              </section>
-            )}
-
-            {/* Awards */}
-            {awards.length > 0 && (
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">Awards &amp; Achievements</h2>
-                <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
-                  {awards.map((award, idx) => (
-                    <li key={idx}>{award}</li>
                   ))}
                 </ul>
               </section>
@@ -351,17 +336,6 @@ export default function ResumePage() {
               </ul>
             </section>
 
-            {/* Extracurriculars */}
-            {extracurricular.length > 0 && (
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">Extracurricular Activities</h2>
-                <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
-                  {extracurricular.map((act, idx) => (
-                    <li key={idx}>{act}</li>
-                  ))}
-                </ul>
-              </section>
-            )}
 
             {/* Interests */}
             {interests.length > 0 && (
